@@ -1,0 +1,178 @@
+.header__logo:after, .header__logo:before {
+    content: "fitnessfor";
+    position: absolute;
+    top: 0;
+    color: #fff;
+    background-color: #000;
+    overflow: hidden;
+}
+.header__logo:after {
+    left: 2px;
+    text-shadow: -1px 0 #6b5d5d;
+    animation: glitch1 3s infinite ease;
+}
+.header__logo:before {
+    left: -2px;
+    text-shadow: 1px 0 #414155;
+    animation: glitch2 10s infinite ease;
+}
+@keyframes glitch1 {
+    0% {
+        clip-path: inset(59% 0 35% 0);
+   }
+    4% {
+        clip-path: inset(80% 0 19% 0);
+   }
+    8% {
+        clip-path: inset(33% 0 52% 0);
+   }
+    12% {
+        clip-path: inset(83% 0 11% 0);
+   }
+    16% {
+        clip-path: inset(45% 0 16% 0);
+   }
+    20% {
+        clip-path: inset(99% 0 1% 0);
+   }
+    24% {
+        clip-path: inset(27% 0 31% 0);
+   }
+    28% {
+        clip-path: inset(9% 0 56% 0);
+   }
+    32% {
+        clip-path: inset(83% 0 9% 0);
+   }
+    36% {
+        clip-path: inset(61% 0 39% 0);
+   }
+    40% {
+        clip-path: inset(84% 0 17% 0);
+   }
+    44% {
+        clip-path: inset(3% 0 70% 0);
+   }
+    48% {
+        clip-path: inset(61% 0 2% 0);
+   }
+    52% {
+        clip-path: inset(5% 0 70% 0);
+   }
+    56% {
+        clip-path: inset(7% 0 44% 0);
+   }
+    60% {
+        clip-path: inset(65% 0 17% 0);
+   }
+    64% {
+        clip-path: inset(48% 0 38% 0);
+   }
+    68% {
+        clip-path: inset(4% 0 41% 0);
+   }
+    72% {
+        clip-path: inset(86% 0 3% 0);
+   }
+    76% {
+        clip-path: inset(70% 0 26% 0);
+   }
+    80% {
+        clip-path: inset(10% 0 20% 0);
+   }
+    84% {
+        clip-path: inset(78% 0 1% 0);
+   }
+    88% {
+        clip-path: inset(98% 0 1% 0);
+   }
+    92% {
+        clip-path: inset(98% 0 2% 0);
+   }
+    96% {
+        clip-path: inset(100% 0 1% 0);
+   }
+    100% {
+        clip-path: inset(30% 0 62% 0);
+   }
+}
+@keyframes glitch2 {
+    0% {
+        clip-path: inset(22% 0 14% 0);
+   }
+    4% {
+        clip-path: inset(84% 0 10% 0);
+   }
+    8% {
+        clip-path: inset(72% 0 15% 0);
+   }
+    12% {
+        clip-path: inset(30% 0 61% 0);
+   }
+    16% {
+        clip-path: inset(80% 0 17% 0);
+   }
+    20% {
+        clip-path: inset(28% 0 51% 0);
+   }
+    24% {
+        clip-path: inset(67% 0 20% 0);
+   }
+    28% {
+        clip-path: inset(30% 0 20% 0);
+   }
+    32% {
+        clip-path: inset(42% 0 52% 0);
+   }
+    36% {
+        clip-path: inset(28% 0 61% 0);
+   }
+    40% {
+        clip-path: inset(88% 0 11% 0);
+   }
+    44% {
+        clip-path: inset(36% 0 17% 0);
+   }
+    48% {
+        clip-path: inset(80% 0 14% 0);
+   }
+    52% {
+        clip-path: inset(59% 0 29% 0);
+   }
+    56% {
+        clip-path: inset(22% 0 39% 0);
+   }
+    60% {
+        clip-path: inset(32% 0 38% 0);
+   }
+    64% {
+        clip-path: inset(14% 0 58% 0);
+   }
+    68% {
+        clip-path: inset(66% 0 9% 0);
+   }
+    72% {
+        clip-path: inset(37% 0 49% 0);
+   }
+    76% {
+        clip-path: inset(86% 0 2% 0);
+   }
+    80% {
+        clip-path: inset(5% 0 21% 0);
+   }
+    84% {
+        clip-path: inset(75% 0 19% 0);
+   }
+    88% {
+        clip-path: inset(5% 0 72% 0);
+   }
+    92% {
+        clip-path: inset(84% 0 16% 0);
+   }
+    96% {
+        clip-path: inset(65% 0 33% 0);
+   }
+    100% {
+        clip-path: inset(22% 0 65% 0);
+   }
+}
